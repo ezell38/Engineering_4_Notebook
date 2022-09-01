@@ -57,6 +57,12 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Link
 
+[Google](http://www.google.com)      
+
 ### Test Image
 
+[Code](raspberry-pi/temp.py)
+
 ### Test GIF
+
+![Liverpool](images/your-image-name.png)  
