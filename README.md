@@ -61,7 +61,7 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Image
 
-[Code](raspberry-pi/temp.py)
+[Code](raspberry-pi)
 
 ### Test GIF
 
