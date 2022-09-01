@@ -57,12 +57,16 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Link
 
-[Google](http://www.google.com)      
+[Google](http://www.google.com)
 
-### Test Image
+### Test Github
 
 [Code](raspberry-pi)
 
-### Test GIF
+### Test Image
 
 ![Liverpool](images/01champions19-superJumbo.jpg)  
+
+### Test GIF
+
+![Elmo](images/Giphy.gif.png)
