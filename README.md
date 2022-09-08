@@ -16,7 +16,7 @@ The goal of this assignment was to use a for loop to make a rasberry pie serial 
 
 ### Evidence 
 
-![Launch Pad](ezgif.com-gif-maker.gif)
+![Launch Pad](images/ezgif.com-gif-maker.gif)
 
 ### Code
 
