@@ -20,7 +20,7 @@ The goal of this assignment was to use a for loop to make a rasberry pie serial 
 
 ### Code
 
-[Launch Pad 1 Code](rasberry-pi)
+[Launch Pad 1 Code](raspberry-pi/Launch_1.py )
 
 ### Reflection 
 
