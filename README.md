@@ -20,7 +20,7 @@ The goal of this assignment was to use a for loop to make a rasberry pie serial 
 
 ### Code
 
-[Launch Pad 1 Code](https://wokwi.com/projects/new/circuitpython-pi-pico)
+[Launch Pad 1 Code]()
 
 ### Reflection 
 
