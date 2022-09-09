@@ -24,6 +24,7 @@ The goal of this assignment was to use a for loop to make a rasberry pie serial 
 
 ### Reflection 
 
+The main thing I needed help on for this assignment was how to make thew for function count down instead of up. I needed to change the last value of the for function and make it -1 to count down instead of 1 to count up.
 
 
 
