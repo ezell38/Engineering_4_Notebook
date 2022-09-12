@@ -43,7 +43,7 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Wiring 
 
-
+![Launch Pad](images/)
 
 ### Reflection 
 
