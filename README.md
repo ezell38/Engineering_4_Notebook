@@ -35,13 +35,19 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Evidence 
 
-![Launch Pad](images/ezgif.com-gif-maker.gif(1))
+![Launch Pad](images/ezgif.com-gif-maker(1).gif)
 
 ### Code
 
 [Launch Pad 2 Code](raspberry-pi/Launch_2.py )
 
+### Wiring 
+
+
+
 ### Reflection 
+
+
 
 
 
