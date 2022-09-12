@@ -43,9 +43,56 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Wiring 
 
-![Launch Pad](images/)
+![Launch Pad](images/image_123927839.JPG)
 
 ### Reflection 
+
+The one thing that I was stuck on was how to make two seperate LEDs so the green can blink seperatly from the red. You have to make a led1 and led2 to make this work. 
+
+## Launch_Pad_2
+
+### Description 
+
+The goal of of this assignment was to add on to the code used in the previous assignment and make a LED flash green everytime it counted down and make another LED flash red when it got to liftoff.
+
+### Evidence 
+
+![Launch Pad](images/ezgif.com-gif-maker(1).gif)
+
+### Code
+
+[Launch Pad 2 Code](raspberry-pi/Launch_2.py )
+
+### Wiring 
+
+![Launch Pad](images/image_123927839.JPG)
+
+### Reflection 
+
+The one thing that I was stuck on was how to make two seperate LEDs so the green can blink seperatly from the red. You have to make a led1 and led2 to make this work. 
+
+## Launch_Pad_3
+
+### Description 
+
+
+### Evidence 
+
+
+
+### Code
+
+
+
+### Wiring 
+
+
+### Reflection 
+
+
+
+
+
 
 
 
