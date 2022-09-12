@@ -4,6 +4,7 @@
 
 ## Table of Contents
 * [Launch_Pad_1](#launch_pad_1)
+* [Launch_Pad_2](#launch_pad_2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -20,9 +21,27 @@ The goal of this assignment was to use a for loop to make a rasberry pie serial 
 
 ### Code
 
-[Launch Pad 1 Code](https://wokwi.com/projects/new/circuitpython-pi-pico)
+[Launch Pad 1 Code](raspberry-pi/Launch_1.py )
 
 ### Reflection 
+
+The main thing I needed help on for this assignment was how to make thew for function count down instead of up. I needed to change the last value of the for function and make it -1 to count down instead of 1 to count up.
+
+## Launch_Pad_2
+
+### Description 
+
+
+### Evidence 
+
+
+### Code
+
+[Launch Pad 2 Code](raspberry-pi/Launch_2.py )
+
+### Reflection 
+
+
 
 
 
