@@ -76,15 +76,17 @@ The one thing that I was stuck on was how to make two seperate LEDs so the green
 ### Description 
 
 
+
 ### Evidence 
 
-
+![Launch Pad](images/ezgif.com-gif-maker(2).gif)
 
 ### Code
 
-
+[Launch Pad 3 Code](raspberry-pi/Launch_3.py )
 
 ### Wiring 
+
 
 
 ### Reflection 
