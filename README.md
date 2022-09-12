@@ -87,7 +87,7 @@ The one thing that I was stuck on was how to make two seperate LEDs so the green
 
 ### Wiring 
 
-
+![Launch Pad](images/image_123927839 (1).JPG)
 
 ### Reflection 
 
