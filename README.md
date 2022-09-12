@@ -31,6 +31,7 @@ The main thing I needed help on for this assignment was how to make thew for fun
 
 ### Description 
 
+The goal of of this assignment was to add on to the code used in the previous assignment and make a LED flash green everytime it counted down and make another LED flash red when it got to liftoff.
 
 ### Evidence 
 
