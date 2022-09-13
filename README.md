@@ -5,6 +5,7 @@
 ## Table of Contents
 * [Launch_Pad_1](#launch_pad_1)
 * [Launch_Pad_2](#launch_pad_2)
+* [Launch_Pad_3](#launch_pad_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
