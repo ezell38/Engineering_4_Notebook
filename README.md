@@ -54,6 +54,7 @@ The one thing that I was stuck on was how to make two seperate LEDs so the green
 
 ### Description
 
+The goal of this project was to have the code do exactly what it did in launch 2 but have you control when the countdown starts with the press of a button. 
 
 ### Evidence 
 
@@ -69,9 +70,7 @@ The one thing that I was stuck on was how to make two seperate LEDs so the green
 
 ### Reflection 
 
-
-
-
+If you use the 3V3 pin on your Pico you have to use button.pull = digitalio.Pull.UP rather than pulling down. This means when you press the button it will read as button value equals true so you put your liftoff code under a while true function rather than a while false function. 
 
 
 
