@@ -35,7 +35,7 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Evidence 
 
-![Launch Pad 2](images/ezgif.com-gif-maker (1).gif)
+![Launch Pad 2](images/ezgif.com-gif-maker(1).gif)
 
 ### Code
 
@@ -57,7 +57,7 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Evidence 
 
-![Launch Pad](images/ezgif.com-gif-maker(1).gif)
+![Launch Pad](images/ezgif.com-gif-maker (1).gif)
 
 ### Code
 
@@ -79,7 +79,7 @@ The one thing that I was stuck on was how to make two seperate LEDs so the green
 
 ### Evidence 
 
-![Launch Pad](images/ezgif.com-gif-maker(2).gif)
+![Launch Pad](images/ezgif.com-gif-maker (2).gif)
 
 ### Code
 
