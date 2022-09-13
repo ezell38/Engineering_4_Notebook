@@ -5,6 +5,7 @@
 ## Table of Contents
 * [Launch_Pad_1](#launch_pad_1)
 * [Launch_Pad_2](#launch_pad_2)
+* [Launch_Pad_3](#launch_pad_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -35,29 +36,7 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Evidence 
 
-![Launch Pad](images/ezgif.com-gif-maker(1).gif)
-
-### Code
-
-[Launch Pad 2 Code](raspberry-pi/Launch_2.py )
-
-### Wiring 
-
-![Launch Pad](images/image_123927839.JPG)
-
-### Reflection 
-
-The one thing that I was stuck on was how to make two seperate LEDs so the green can blink seperatly from the red. You have to make a led1 and led2 to make this work. 
-
-## Launch_Pad_2
-
-### Description 
-
-The goal of of this assignment was to add on to the code used in the previous assignment and make a LED flash green everytime it counted down and make another LED flash red when it got to liftoff.
-
-### Evidence 
-
-![Launch Pad](images/ezgif.com-gif-maker(1).gif)
+![Launch Pad 2](images/Launch_2.gif)
 
 ### Code
 
@@ -73,23 +52,25 @@ The one thing that I was stuck on was how to make two seperate LEDs so the green
 
 ## Launch_Pad_3
 
-### Description 
+### Description
 
+The goal of this project was to have the code do exactly what it did in launch 2 but have you control when the countdown starts with the press of a button. 
 
 ### Evidence 
 
-
+![Launch Pad](images/Launch_3.gif)
 
 ### Code
 
-
+[Launch Pad 3 Code](raspberry-pi/Launch_3.py )
 
 ### Wiring 
 
+![Launch Pad](images/Launch_3_Wire.JPG)
 
 ### Reflection 
 
-
+If you use the 3V3 pin on your Pico you have to use button.pull = digitalio.Pull.UP rather than pulling down. This means when you press the button it will read as button value equals true so you put your liftoff code under a while true function rather than a while false function. 
 
 
 
