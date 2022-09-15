@@ -83,7 +83,7 @@ If you use the 3V3 pin on your Pico you have to use button.pull = digitalio.Pull
 
 ### Code
 
-[Launch Pad 3 Code](raspberry-pi/Launch_4.py )
+[Launch Pad 4 Code](raspberry-pi/Launch_4.py )
 
 ### Wiring 
 
