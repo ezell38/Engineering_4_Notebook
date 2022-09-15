@@ -6,6 +6,7 @@
 * [Launch_Pad_1](#launch_pad_1)
 * [Launch_Pad_2](#launch_pad_2)
 * [Launch_Pad_3](#launch_pad_3)
+* [Launch_Pad_4](#launch_pad_4)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -76,6 +77,7 @@ If you use the 3V3 pin on your Pico you have to use button.pull = digitalio.Pull
 
 ### Description
 
+The goal of this assignment was to build on Launch 3 and make a servo move 180 degrees simultaniously with the green light blinking and the moniter printing liftoff at the end of the countdown. 
 
 ### Evidence 
 
@@ -91,7 +93,7 @@ If you use the 3V3 pin on your Pico you have to use button.pull = digitalio.Pull
 
 ### Reflection 
 
-
+One key to this assignment was to set the servo to zero before your while true loop runs so when you run your loop and it tells the servo to move to 180 degrees it won't already be there.
 
 
 
