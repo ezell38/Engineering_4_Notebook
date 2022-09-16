@@ -95,7 +95,17 @@ The goal of this assignment was to build on Launch 3 and make a servo move 180 d
 
 One key to this assignment was to set the servo to zero before your while true loop runs so when you run your loop and it tells the servo to move to 180 degrees it won't already be there.
 
+## Crash_Avoidance_1
 
+### Description
+
+### Evidence
+
+### Code
+
+[Crash 1 Code](raspberry-pi/Crash_1.py)
+
+### Wiring 
 
 
 
