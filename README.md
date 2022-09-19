@@ -7,7 +7,7 @@
 * [Launch_Pad_2](#launch_pad_2)
 * [Launch_Pad_3](#launch_pad_3)
 * [Launch_Pad_4](#launch_pad_4)
-* [Crash Avoidance 1](#launch_pad_4)
+* [Crash Avoidance 1](#Crash_Avoidance_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
