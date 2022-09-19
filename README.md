@@ -101,7 +101,7 @@ One key to this assignment was to set the servo to zero before your while true l
 
 ### Evidence
 
-![Crash 1](images/)
+![Crash 1](images/Crash_1.gif)
 
 ### Code
 
