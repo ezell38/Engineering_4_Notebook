@@ -119,7 +119,7 @@ The goal of this assignment was to print off the Y, X, and Z coordinates of an a
 
 One thing hard with this assignment was making it read off the right coordinates for each axis. For instance, having it read off the x coordinates when it moves in the x direction. You have to use {mpu.gyro[0]} for the x axis, {mpu.gyro[1]} for Y, and {mpu.gyro[2]} for Z.
 
-## Crash_Avoidance_1
+## Crash_Avoidance_2
 
 ### Description
 
