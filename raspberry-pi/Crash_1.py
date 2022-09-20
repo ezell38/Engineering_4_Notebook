@@ -18,9 +18,9 @@ mpu.gyro
 
 while True: 
     
-    print(f"X Angular Velocity: {mpu.gyro[0]} m/s2")
-    print(f"Y Angular Velocity: {mpu.gyro[1]} m/s2")
-    print(f"Z Angular Velocity: {mpu.gyro[2]} m/s2")
+    print(f"X Acceleration: {mpu.acceleration[0]} m/s2")
+    print(f"Y Acceleration: {mpu.acceleration[1]} m/s2")
+    print(f"Z Acceleration: {mpu.acceleration[2]} m/s2")
     print("") 
     
     print("")
