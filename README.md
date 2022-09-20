@@ -8,6 +8,7 @@
 * [Launch_Pad_3](#launch_pad_3)
 * [Launch_Pad_4](#launch_pad_4)
 * [Crash Avoidance 1](#Crash_Avoidance_1)
+* [Crash Avoidance 2](#Crash_Avoidance_2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -117,6 +118,28 @@ The goal of this assignment was to print off the Y, X, and Z coordinates of an a
 ### Reflection 
 
 One thing hard with this assignment was making it read off the right coordinates for each axis. For instance, having it read off the x coordinates when it moves in the x direction. You have to use {mpu.gyro[0]} for the x axis, {mpu.gyro[1]} for Y, and {mpu.gyro[2]} for Z.
+
+## Crash_Avoidance_2
+
+### Description
+
+The goal of this assignment was to build on crash 1 and make it so a red led turned on everytime the accelerometer moved past a 90 degree angle in either of the 4 directions. 
+
+### Evidence
+
+![Crash 2](images/Crash_2.gif)
+
+### Code
+
+[Crash 2 Code](raspberry-pi/Crash_2.py)
+
+### Wiring 
+
+![Crash 2](images/Crash_2_Wire.JPG)
+
+### Reflection 
+
+The main thing I needed to figure out to make this code work was where to put the if else functions. You need to have the while true function then inside of it have the code to print the values and then after that chunck have the if else function. You also need to make sure to have it not just when it reads over 9 but also if it reads less that -9 - if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:.
 
 
 ### Assignment Description
