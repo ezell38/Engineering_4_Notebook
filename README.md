@@ -123,7 +123,7 @@ One thing hard with this assignment was making it read off the right coordinates
 
 ### Description
 
-
+The goal of this assignment was to build on crash 1 and make it so a red led turned on everytime the accelerometer moved past a 90 degree angle in either of the 4 directions. 
 
 ### Evidence
 
@@ -139,7 +139,7 @@ One thing hard with this assignment was making it read off the right coordinates
 
 ### Reflection 
 
-
+The main thing I needed to figure out to make this code work was where to put the if else functions. You need to have the while true function then inside of it have the code to print the values and then after that chunck have the if else function. You also need to make sure to have it not just when it reads over 9 but also if it reads less that -9 - if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:.
 
 
 ### Assignment Description
