@@ -7,6 +7,7 @@
 * [Launch_Pad_2](#launch_pad_2)
 * [Launch_Pad_3](#launch_pad_3)
 * [Launch_Pad_4](#launch_pad_4)
+* [Crash Avoidance 1](#Crash_Avoidance_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -95,11 +96,27 @@ The goal of this assignment was to build on Launch 3 and make a servo move 180 d
 
 One key to this assignment was to set the servo to zero before your while true loop runs so when you run your loop and it tells the servo to move to 180 degrees it won't already be there.
 
+## Crash_Avoidance_1
 
+### Description
 
+The goal of this assignment was to print off the Y, X, and Z coordinates of an accelerometer 
 
+### Evidence
 
+![Crash 1](images/Crash_1.gif)
 
+### Code
+
+[Crash 1 Code](raspberry-pi/Crash_1.py)
+
+### Wiring 
+
+![Crash 1](images/image_50406145.JPG)
+
+### Reflection 
+
+One thing hard with this assignment was making it read off the right coordinates for each axis. For instance, having it read off the x coordinates when it moves in the x direction. You have to use {mpu.gyro[0]} for the x axis, {mpu.gyro[1]} for Y, and {mpu.gyro[2]} for Z.
 
 
 ### Assignment Description
