@@ -9,8 +9,8 @@ import busio
 from adafruit_display_text import label
 import adafruit_displayio_ssd1306
 import terminalio
-import displayio
-
+import displayio 
+ 
 displayio.release_displays() #put this line just below your imports
 
 
@@ -19,10 +19,10 @@ scl_pin = board.GP15
 i2c = busio.I2C(scl_pin, sda_pin)
 led=digitalio.DigitalInOut(board.GP18)
 
-display_bus = displayio.I2CDisplay(i2c, device_address=['0x3d', '0x68'], reset=board.GP21)
+display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP21)
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
-mpu = mpu = adafruit_mpu6050.MPU6050(i2c, address=['0x3d', '0x68'])
+mpu = mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68)
 
 led.direction=digitalio.Direction.OUTPUT
 
@@ -35,6 +35,8 @@ splash = displayio.Group()
 
 # add title block to display group
 title = "ANGULAR VELOCITY"
+
+
 # the order of this command is (font, text, text color, and location)
 text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
 splash.append(text_area)    
@@ -42,11 +44,9 @@ splash.append(text_area)
 # you will write more code here that prints the x, y, and z angular velocity values to the screen below the title. Use f strings!
 # Don't forget to round the angular velocity values to three decimal places
 
-# send display group to screen
+# send display group to screen 
 display.show(splash)
-
-
-
+ 
 
 while True: 
 
@@ -58,6 +58,29 @@ while True:
     print("")
     time.sleep(.2)
 
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
+    splash.append(text_area)    
+
+    list = (f"X : {mpu.acceleration[0]} rad/s") 
+            
+
+    text_area = label.Label(terminalio.FONT, text=list, color=0xFFFF00, x=5, y=20) 
+    splash.append(text_area)   
+
+    money = (f"Y : {mpu.acceleration[1]} rad/s")
+            
+
+    text_area = label.Label(terminalio.FONT, text=money, color=0xFFFF00, x=5, y=30) 
+    splash.append(text_area)   
+
+    elias = (f"Z : {mpu.acceleration[2]} rad/s")
+            
+
+    text_area = label.Label(terminalio.FONT, text=elias, color=0xFFFF00, x=5, y=40) 
+    splash.append(text_area)   
+
+    
+     
     if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:
     
         led.value=True 
@@ -68,4 +91,3 @@ while True:
    
  
    
- 
