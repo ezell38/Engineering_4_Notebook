@@ -9,6 +9,7 @@
 * [Launch_Pad_4](#launch_pad_4)
 * [Crash Avoidance 1](#Crash_Avoidance_1)
 * [Crash Avoidance 2](#Crash_Avoidance_2)
+* [Crash Avoidance 3](#Crash_Avoidance_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -140,6 +141,26 @@ The goal of this assignment was to build on crash 1 and make it so a red led tur
 ### Reflection 
 
 The main thing I needed to figure out to make this code work was where to put the if else functions. You need to have the while true function then inside of it have the code to print the values and then after that chunck have the if else function. You also need to make sure to have it not just when it reads over 9 but also if it reads less that -9 - if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:.
+
+
+## Crash_Avoidance_3
+
+### Description
+ 
+
+### Evidence
+
+![Crash 3](images/Crash_3.gif)
+
+### Code
+
+[Crash 3 Code](raspberry-pi/Crash_3.py)
+
+### Wiring 
+
+![Crash 3](images/Crash_3_Wire.JPG)
+
+### Reflection 
 
 
 ### Assignment Description
