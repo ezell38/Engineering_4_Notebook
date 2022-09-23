@@ -146,7 +146,8 @@ The main thing I needed to figure out to make this code work was where to put th
 ## Crash_Avoidance_3
 
 ### Description
- 
+
+The goal of this assignment was to make a OLED screen read the X,Y, and Z coordinates of a onboard accelerometer. A Red LED will also turn off if the accelerometer breaks 90 degrees in any direction. 
 
 ### Evidence
 
@@ -162,6 +163,7 @@ The main thing I needed to figure out to make this code work was where to put th
 
 ### Reflection 
 
+One thing that was challenging in this assignment was learning how to make a splash function run over and over again and not just text on top of eachother. I also had trouble rounding the coordinates. Just use round(variable,ndigits). For example -  list = (f"X : {round(mpu.acceleration[0],3)} rad/s") 
 
 ### Assignment Description
 
