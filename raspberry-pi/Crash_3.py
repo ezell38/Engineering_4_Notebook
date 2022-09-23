@@ -1,5 +1,5 @@
 # Elias Zell
-# Crash 1
+# Crash 3 
 
 import time 
 import digitalio  
@@ -31,22 +31,6 @@ led.direction=digitalio.Direction.OUTPUT
 mpu.acceleration 
 mpu.gyro
 
-splash = displayio.Group()
-
-# add title block to display group
-title = "ANGULAR VELOCITY"
-
-
-# the order of this command is (font, text, text color, and location)
-text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
-splash.append(text_area)    
-
-# you will write more code here that prints the x, y, and z angular velocity values to the screen below the title. Use f strings!
-# Don't forget to round the angular velocity values to three decimal places
-
-# send display group to screen 
-display.show(splash)
- 
 
 while True: 
 
@@ -58,29 +42,35 @@ while True:
     print("")
     time.sleep(.2)
 
+    splash = displayio.Group()
+
+    title = "ANGULAR VELOCITY"
+
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
-    splash.append(text_area)    
+    splash.append(text_area)  
 
-    list = (f"X : {mpu.acceleration[0]} rad/s") 
-            
 
+    list = (f"X : {round(mpu.acceleration[0],3)} rad/s") 
+                
     text_area = label.Label(terminalio.FONT, text=list, color=0xFFFF00, x=5, y=20) 
     splash.append(text_area)   
 
-    money = (f"Y : {mpu.acceleration[1]} rad/s")
-            
 
+    money = (f"Y : {round(mpu.acceleration[1],3)} rad/s")
+                
     text_area = label.Label(terminalio.FONT, text=money, color=0xFFFF00, x=5, y=30) 
     splash.append(text_area)   
 
-    elias = (f"Z : {mpu.acceleration[2]} rad/s")
-            
 
+    elias = (f"Z : {round(mpu.acceleration[2],3)} rad/s")
+            
     text_area = label.Label(terminalio.FONT, text=elias, color=0xFFFF00, x=5, y=40) 
     splash.append(text_area)   
 
-    
-     
+
+    display.show(splash)
+
+        
     if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:
     
         led.value=True 
