@@ -9,6 +9,7 @@
 * [Launch_Pad_4](#launch_pad_4)
 * [Crash Avoidance 1](#Crash_Avoidance_1)
 * [Crash Avoidance 2](#Crash_Avoidance_2)
+* [Crash Avoidance 3](#Crash_Avoidance_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -141,6 +142,28 @@ The goal of this assignment was to build on crash 1 and make it so a red led tur
 
 The main thing I needed to figure out to make this code work was where to put the if else functions. You need to have the while true function then inside of it have the code to print the values and then after that chunck have the if else function. You also need to make sure to have it not just when it reads over 9 but also if it reads less that -9 - if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:.
 
+
+## Crash_Avoidance_3
+
+### Description
+
+The goal of this assignment was to make a OLED screen read the X,Y, and Z coordinates of a onboard accelerometer. A Red LED will also turn off if the accelerometer breaks 90 degrees in any direction. 
+
+### Evidence
+
+![Crash 3](images/Crash_3.gif)
+
+### Code
+
+[Crash 3 Code](raspberry-pi/Crash_3.py)
+
+### Wiring 
+
+![Crash 3](images/Crash_3_Wire.JPG)
+
+### Reflection 
+
+One thing that was challenging in this assignment was learning how to make a splash function run over and over again and not just text on top of eachother. I also had trouble rounding the coordinates. Just use round(variable,ndigits). For example -  list = (f"X : {round(mpu.acceleration[0],3)} rad/s") 
 
 ### Assignment Description
 
