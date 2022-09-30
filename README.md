@@ -10,6 +10,7 @@
 * [Crash Avoidance 1](#Crash_Avoidance_1)
 * [Crash Avoidance 2](#Crash_Avoidance_2)
 * [Crash Avoidance 3](#Crash_Avoidance_3)
+* [Landing Area 1](#Landing_Area_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -164,6 +165,18 @@ The goal of this assignment was to make a OLED screen read the X,Y, and Z coordi
 ### Reflection 
 
 One thing that was challenging in this assignment was learning how to make a splash function run over and over again and not just text on top of eachother. I also had trouble rounding the coordinates. Just use round(variable,ndigits). For example -  list = (f"X : {round(mpu.acceleration[0],3)} rad/s") 
+
+### Landing_Area_1
+
+### Description
+
+### Evidence
+
+![Landing 1](images/Landing_1.gif)
+
+### Code 
+
+[Landing 1 Code](raspberry-pi/Landing_1.py)
 
 ### Assignment Description
 
