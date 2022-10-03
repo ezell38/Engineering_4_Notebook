@@ -170,7 +170,7 @@ One thing that was challenging in this assignment was learning how to make a spl
 
 ### Description
 
-The goal for this assignment was to make a function that asked for the coordinates of a triangle then would find the area of said triangle.
+The goal for this assignment was to make a function that asked for the coordinates of a triangle then would find and print the area of said triangle.
 
 ### Evidence
 
