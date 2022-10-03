@@ -170,6 +170,8 @@ One thing that was challenging in this assignment was learning how to make a spl
 
 ### Description
 
+The goal for this assignment was to make a function that asked for the coordinates of a triangle then would find and print the area of said triangle.
+
 ### Evidence
 
 ![Landing 1](images/Landing_1.gif)
@@ -177,6 +179,10 @@ One thing that was challenging in this assignment was learning how to make a spl
 ### Code 
 
 [Landing 1 Code](raspberry-pi/Landing_1.py)
+
+### Reflection
+
+One thing I learned during this assignment was the float function. The float function converts characters into actual numbers the program can use. For example, after asking for the user to input what the value for x1 is use the float function -  x1 = float(x1) - to make it into a number the computer can use.  
 
 ### Assignment Description
 
