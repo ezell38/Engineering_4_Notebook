@@ -198,7 +198,7 @@ The goal for this assignment was to make a function that asked for the coordinat
 
 ### Wiring
 
-[Landing 2 Wiring](images/Landing_2_Wire.gif)
+[Landing 2 Wiring](images/Landing_2_Wire.JPG)
 
 ### Code 
 
