@@ -22,8 +22,6 @@ i2c = busio.I2C(scl_pin, sda_pin)
 display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP21)
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
-
-
 def area_calc(x1, y1, x2, y2, x3, y3):
     x1 = float(x1)
     x2 = float(x2)
@@ -47,7 +45,7 @@ while True:
         splash = displayio.Group()
 
 
-        triangle = Triangle(int(xcoor1), int(ycoor1), int(xcoor2), int(ycoor2), int(xcoor3), int(ycoor3), outline=0xFFFF00)
+        triangle = Triangle(int(xcoor1) + 64, -int(ycoor1) + 32, int(xcoor2) + 64, -int(ycoor2) + 32, int(xcoor3) + 64, -int(ycoor3) + 32, outline=0xFFFF00)
         splash.append(triangle)
 
         hline = Line(0,32,128,32, color=0xFFFF00)
@@ -56,12 +54,16 @@ while True:
         hline = Line(64,0,64,64, color=0xFFFF00)
         splash.append(hline)
 
-        circle = Circle(64, 32, 1, outline=0xFFFF00)
+        circle = Circle(64, 32, 2, outline=0xFFFF00)
         splash.append(circle)
 
         display.show(splash)
 
     except:
         print("These points are not a valid triangle. Please try again, and make sure you are using the x,y syntax!")
+        
 
-    
+   
+   
+ 
+   
