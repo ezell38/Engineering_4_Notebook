@@ -19,10 +19,14 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
 
 while True:
     message = input("Enter Morse Code Message, or enter -q to quit: ")
-    message = message.upper
-    if message != ["-q"]:
-      for letter in message:
-        print(MORSE_CODE[message])
 
-    else:
+
+    if message == "-q":
       break
+
+    message = message.upper()
+
+    for letter in message:
+      print(MORSE_CODE[letter])
+      print(" ")
+
