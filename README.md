@@ -11,6 +11,7 @@
 * [Crash Avoidance 2](#Crash_Avoidance_2)
 * [Crash Avoidance 3](#Crash_Avoidance_3)
 * [Landing Area 1](#Landing_Area_1)
+* [Landing Area 2](#Landing_Area_2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -183,6 +184,30 @@ The goal for this assignment was to make a function that asked for the coordinat
 ### Reflection
 
 One thing I learned during this assignment was the float function. The float function converts characters into actual numbers the program can use. For example, after asking for the user to input what the value for x1 is use the float function -  x1 = float(x1) - to make it into a number the computer can use.  
+
+
+### Landing_Area_2
+
+### Description
+
+The goal for this assignment was to build on the last and make it print everything on a OLED screen including a graph of the triangle. 
+
+### Evidence
+
+![Landing 2](images/Landing_2.gif)
+
+### Wiring
+
+![Landing 2 Wire](images/Landing_2_Wire.JPG)
+
+### Code 
+
+[Landing 2 Code](raspberry-pi/Landing_2.py)
+
+### Reflection
+
+One thing I learned about during this assignment was the int function. In the context of this assignment this function takes a number and makes its a coordinate that can be printed on a OLED screen. One thing we did was add or subract to the int to make it print where we wanted on the OLED screen. For example, you had to add 64 to all x values and make the int negative and add 32 to all y values - int(xcoor1) + 64, -int(ycoor1) + 32.
+
 
 ### Assignment Description
 
