@@ -232,10 +232,11 @@ One thing I struggled with was string concatenation. I couldn't figure out how t
 
 ### Description 
 
+The goal of this assignment was to build on the last and make the led blink accordingly to the morse code.
 
 ### Evidence
 
-
+![Morse 2](images/Morse_2.gif)
 
 ### Code
 
@@ -243,7 +244,7 @@ One thing I struggled with was string concatenation. I couldn't figure out how t
 
 ### Reflection 
 
-
+The key to this assignment was to use the "for character in umym:" loop. this goes through each character in a string and depending on the character it acts out different loops.  
 
 
 ### Assignment Description
