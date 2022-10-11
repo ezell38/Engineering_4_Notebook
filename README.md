@@ -12,7 +12,7 @@
 * [Crash Avoidance 3](#Crash_Avoidance_3)
 * [Landing Area 1](#Landing_Area_1)
 * [Landing Area 2](#Landing_Area_2)
-* [Morse Code 1](#Morse_Code_2)
+* [Morse Code 1](#Morse_Code_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -213,20 +213,19 @@ One thing I learned about during this assignment was the int function. In the co
 
 ### Description
 
-
+The goal of this assignment was to convert text into morse code. The program would ask for a input then spit it out in morse code adding spaces between letters and slashes between words.
 
 ### Evidence 
 
-
+![Morse 1](images/Morse_1.gif)
 
 ### Code 
-
 
 [Morse Code 1 Code](raspberry-pi/Morse_1.py)
 
 ### Reflection
 
-
+One thing I struggled with was string concatenation. I couldn't figure out how to add the previous word to the new word on the same line. What You have to do is create a variable thats whatever you printed last plus whats now being input. umym = umym + MORSE_CODE[letter] + " " then print(umym). 
 
 ### Assignment Description
 
