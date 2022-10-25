@@ -34,7 +34,7 @@ The goal of this assignment was to use a for loop to make a rasberry pie serial 
 
 ### Reflection 
 
-The main thing I needed help on for this assignment was how to make the for function count down instead of up. I needed to change the last value of the for function and make it -1 to count down instead of 1 to count up.(for x in range(10, 0, -1):)
+The main thing I needed help with on this assignment was how to make the for function count down instead of up. I needed to change the last value of the for function and make it -1 to count down instead of 1 to count up. (for x in range(10, 0, -1):)
 
 ## Launch_Pad_2
 
@@ -48,7 +48,7 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Code
 
-[Launch Pad 2 Code](raspberry-pi/Launch_2.py )
+[Launch Pad 2 Code](raspberry-pi/Launch_2.py)
 
 ### Wiring 
 
@@ -103,7 +103,7 @@ The goal of this assignment was to build on Launch 3 and make a servo move 180 d
 
 ### Reflection 
 
-One key to this assignment was to set the servo to zero before your while true loop runs so when you run your loop and it tells the servo to move to 180 degrees it won't already be there.(servo1.angle = 0) 
+One key to this assignment was to set the servo to zero before your while true loop runs so when you run your loop and it tells the servo to move to 180 degrees it won't already be there. (servo1.angle = 0) 
 
 ## Crash_Avoidance_1
 
