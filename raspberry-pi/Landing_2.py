@@ -19,7 +19,7 @@ sda_pin = board.GP14
 scl_pin = board.GP15
 i2c = busio.I2C(scl_pin, sda_pin)
 
-display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP21)
+display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP21)      #Initializes OLED screen
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
 def area_calc(x1, y1, x2, y2, x3, y3):
@@ -45,16 +45,16 @@ while True:
         splash = displayio.Group()
 
 
-        triangle = Triangle(int(xcoor1) + 64, -int(ycoor1) + 32, int(xcoor2) + 64, -int(ycoor2) + 32, int(xcoor3) + 64, -int(ycoor3) + 32, outline=0xFFFF00)
+        triangle = Triangle(int(xcoor1) + 64, -int(ycoor1) + 32, int(xcoor2) + 64, -int(ycoor2) + 32, int(xcoor3) + 64, -int(ycoor3) + 32, outline=0xFFFF00)       #Print triangle on OLED screen, have to add 32 and 64 to put them in the right place on OLED screen
         splash.append(triangle)
 
-        hline = Line(0,32,128,32, color=0xFFFF00)
+        hline = Line(0,32,128,32, color=0xFFFF00)       #Print hon=rizontal line
         splash.append(hline)
 
-        hline = Line(64,0,64,64, color=0xFFFF00)
+        hline = Line(64,0,64,64, color=0xFFFF00)        #Print vertical line
         splash.append(hline)
 
-        circle = Circle(64, 32, 2, outline=0xFFFF00)
+        circle = Circle(64, 32, 2, outline=0xFFFF00)    #Prints center circle 
         splash.append(circle)
 
         display.show(splash)

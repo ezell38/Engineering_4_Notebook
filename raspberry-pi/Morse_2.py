@@ -25,7 +25,7 @@ MORSE_CODE = { ' ':'/', 'A':'.-', 'B':'-...',
     '(':'-.--.', ')':'-.--.-'}
 
 modifier = 0.25
-dot_time = 1*modifier
+dot_time = 1*modifier         
 dash_time = 3*modifier
 between_taps = 1*modifier
 between_letters = 3*modifier
@@ -48,18 +48,18 @@ while True:
     print(umym)
 
     for character in umym:
-      if character == ".":
+      if character == ".":            #If the character is a "." turn on the led for dot time
         led.value=True
         time.sleep(dot_time)
         led.value=False
         time.sleep(between_taps)
 
 
-      if character == "-":
+      if character == "-":          #If the character is a "-" turn on the led for dash time
         led.value=True
         time.sleep(dash_time)
         led.value=False
         time.sleep(between_taps)
 
-      if character == " ":
+      if character == " ":        #If the character is a space sleep for the allotted amount of time 
         time.sleep(between_words)

@@ -42,15 +42,15 @@ while True:
     print("")
     time.sleep(.2)
 
-    splash = displayio.Group()
+    splash = displayio.Group()                      #Print displayio.Group() on the OLED screen
 
-    title = "ANGULAR VELOCITY"
+    title = "ANGULAR VELOCITY"                                                              #What to print
 
-    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
-    splash.append(text_area)  
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)          #Where on the screen to print 
+    splash.append(text_area)                                                                
 
 
-    list = (f"X : {round(mpu.acceleration[0],3)} rad/s") 
+    list = (f"X : {round(mpu.acceleration[0],3)} rad/s")                                    #This rounds the coordinate                           
                 
     text_area = label.Label(terminalio.FONT, text=list, color=0xFFFF00, x=5, y=20) 
     splash.append(text_area)   
@@ -68,7 +68,7 @@ while True:
     splash.append(text_area)   
 
 
-    display.show(splash)
+    display.show(splash)                                                                    #Print splash on the screen
 
         
     if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:

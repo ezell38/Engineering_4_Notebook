@@ -1,6 +1,6 @@
 import board 
 
-MORSE_CODE = { ' ':'/', 'A':'.-', 'B':'-...',
+MORSE_CODE = { ' ':'/', 'A':'.-', 'B':'-...',     #Morse code dictionary
     'C':'-.-.', 'D':'-..', 'E':'.',
     'F':'..-.', 'G':'--.', 'H':'....',
     'I':'..', 'J':'.---', 'K':'-.-',
@@ -18,16 +18,16 @@ MORSE_CODE = { ' ':'/', 'A':'.-', 'B':'-...',
 
 
 while True:
-    message = input("Enter Morse Code Message, or enter -q to quit: ")
+    message = input("Enter Morse Code Message, or enter -q to quit: ")      #User input is now message
     
     
-    if message == "-q":
+    if message == "-q":                   #If user inputs -q it quits the program
       break
 
-    message = message.upper()
-    umym = ""
+    message = message.upper()             #Capatalizes message
+    umym = ""                             #umym is now previous input
 
-    for letter in message:
-      umym = umym + MORSE_CODE[letter] + " "
+    for letter in message:                            #Run program on each individual character in message
+      umym = umym + MORSE_CODE[letter] + " "          #Add new line to previous line and then add a space
 
     print(umym)
