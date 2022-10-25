@@ -35,5 +35,5 @@ while True:
     
         led.value=True 
 
-    else:                                                           #If its not run this
+    else:                                                           #If not run this
         led.value=False    
