@@ -34,7 +34,7 @@ The goal of this assignment was to use a for loop to make a rasberry pie serial 
 
 ### Reflection 
 
-The main thing I needed help on for this assignment was how to make thew for function count down instead of up. I needed to change the last value of the for function and make it -1 to count down instead of 1 to count up.
+The main thing I needed help on for this assignment was how to make the for function count down instead of up. I needed to change the last value of the for function and make it -1 to count down instead of 1 to count up.(for x in range(10, 0, -1):)
 
 ## Launch_Pad_2
 
@@ -56,7 +56,10 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Reflection 
 
-The one thing that I was stuck on was how to make two seperate LEDs so the green can blink seperatly from the red. You have to make a led1 and led2 to make this work. 
+The one thing that I was stuck on was how to make two seperate LEDs so the green can blink seperatly from the red. You have to make a led1 and led2 to make this work.
+Like this - 
+led1=digitalio.DigitalInOut(board.GP13)
+led2=digitalio.DigitalInOut(board.GP18)
 
 ## Launch_Pad_3
 
@@ -100,7 +103,7 @@ The goal of this assignment was to build on Launch 3 and make a servo move 180 d
 
 ### Reflection 
 
-One key to this assignment was to set the servo to zero before your while true loop runs so when you run your loop and it tells the servo to move to 180 degrees it won't already be there.
+One key to this assignment was to set the servo to zero before your while true loop runs so when you run your loop and it tells the servo to move to 180 degrees it won't already be there.(servo1.angle = 0) 
 
 ## Crash_Avoidance_1
 
@@ -244,7 +247,7 @@ The goal of this assignment was to build on the last and make the led blink acco
 
 ### Reflection 
 
-The key to this assignment was to use the "for character in umym:" loop. this goes through each character in a string and depending on the character it acts out different loops.  
+The key to this assignment was to use the "for character in umym:" loop. This goes through each character in a string and depending on the character it acts out different loops. You then have to add the new character to the previous line using (umym = umym + MORSE_CODE[letter] + " ")  
 
 ## Onshape_Assignment_Template
 
