@@ -3,10 +3,10 @@
 &nbsp;
 
 ## Table of Contents
-* [Launch_Pad_1](#launch_pad_1)
-* [Launch_Pad_2](#launch_pad_2)
-* [Launch_Pad_3](#launch_pad_3)
-* [Launch_Pad_4](#launch_pad_4)
+* [Launch_Pad_1](#Launch_Pad_1)
+* [Launch_Pad_2](#Launch_Pad_2)
+* [Launch_Pad_3](#Launch_Pad_3)
+* [Launch_Pad_4](#Launch_Pad_4)
 * [Crash Avoidance 1](#Crash_Avoidance_1)
 * [Crash Avoidance 2](#Crash_Avoidance_2)
 * [Crash Avoidance 3](#Crash_Avoidance_3)
@@ -14,7 +14,7 @@
 * [Landing Area 2](#Landing_Area_2)
 * [Morse Code 1](#Morse_Code_1)
 * [Morse Code 2](#Morse_Code_2)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
+* [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
 
@@ -22,7 +22,7 @@
 
 ### Description 
 
-The goal of this assignment was to use a for loop to make a rasberry pie serial moniter countdown from 10 and then say liftoff. 
+The goal of this assignment was to use a for loop to make a rasberry pi print a countdown from 10 and then say liftoff in its serial moniter. 
 
 ### Evidence 
 
@@ -34,7 +34,7 @@ The goal of this assignment was to use a for loop to make a rasberry pie serial 
 
 ### Reflection 
 
-The main thing I needed help on for this assignment was how to make the for function count down instead of up. I needed to change the last value of the for function and make it -1 to count down instead of 1 to count up.(for x in range(10, 0, -1):)
+The main thing I needed help with on this assignment was how to make the for function count down instead of up. I needed to change the last value of the for function and make it -1 to count down instead of 1 to count up. (for x in range(10, 0, -1):). The 10 and 0 tell the program to start at 10 and end at 0. -1 is the integer at which it counts at. 
 
 ## Launch_Pad_2
 
@@ -48,7 +48,7 @@ The goal of of this assignment was to add on to the code used in the previous as
 
 ### Code
 
-[Launch Pad 2 Code](raspberry-pi/Launch_2.py )
+[Launch Pad 2 Code](raspberry-pi/Launch_2.py)
 
 ### Wiring 
 
@@ -81,7 +81,7 @@ The goal of this project was to have the code do exactly what it did in launch 2
 
 ### Reflection 
 
-If you use the 3V3 pin on your Pico you have to use button.pull = digitalio.Pull.UP rather than pulling down. This means when you press the button it will read as button value equals true so you put your liftoff code under a while true function rather than a while false function. 
+If you use the 3V3 pin on your Pico you have to use button.pull = digitalio.Pull.UP rather than pulling down. This means when you press the button it will read as button value equals true so you put your liftoff code under a while true function rather than a while false function. The (if button.value == False:) function will run if its not pressed as the button value is false.
 
 ## Launch_Pad_4
 
@@ -103,7 +103,7 @@ The goal of this assignment was to build on Launch 3 and make a servo move 180 d
 
 ### Reflection 
 
-One key to this assignment was to set the servo to zero before your while true loop runs so when you run your loop and it tells the servo to move to 180 degrees it won't already be there.(servo1.angle = 0) 
+One key to this assignment was to set the servo to zero before your while true loop runs. This makes sure that when you run your loop and it tells the servo to move to 180 degrees it won't already be there. (servo1.angle = 0). Then after liftoff write, (servo1.angle = 180) to move it 180 degrees from its previous, set position. 
 
 ## Crash_Avoidance_1
 
@@ -170,7 +170,7 @@ The goal of this assignment was to make a OLED screen read the X,Y, and Z coordi
 
 ### Reflection 
 
-One thing that was challenging in this assignment was learning how to make a splash function run over and over again and not just text on top of eachother. I also had trouble rounding the coordinates. Just use round(variable,ndigits). For example -  list = (f"X : {round(mpu.acceleration[0],3)} rad/s") 
+One thing that was challenging in this assignment was learning how to make a splash function run over and over again and not just text on top of eachother. Have ( splash = displayio.Group()) before the code to print on the OLED screen in your while True: loop. I also had trouble rounding the coordinates. Just use round(variable,ndigits). For example -  list = (f"X : {round(mpu.acceleration[0],3)} rad/s") 
 
 ### Landing_Area_1
 
