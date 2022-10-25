@@ -18,10 +18,10 @@ mpu.gyro
 
 while True: 
     
-    print(f"X Acceleration: {mpu.acceleration[0]} m/s2")
-    print(f"Y Acceleration: {mpu.acceleration[1]} m/s2")
-    print(f"Z Acceleration: {mpu.acceleration[2]} m/s2")
+    print(f"X Acceleration: {mpu.acceleration[0]} m/s2")        #Print the X coordinate of the accelerometer
+    print(f"Y Acceleration: {mpu.acceleration[1]} m/s2")        #Print the Y coordinate of the accelerometer
+    print(f"Z Acceleration: {mpu.acceleration[2]} m/s2")        #Print the Z coordinate of the accelerometer
     print("") 
     
-    print("")
+    print("")                                                   #Prints everything you just wrote above 
     time.sleep(1) 

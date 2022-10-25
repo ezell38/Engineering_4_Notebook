@@ -31,9 +31,9 @@ while True:
     print("")
     time.sleep(.5)
 
-    if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:
+    if mpu.acceleration[0]>9 or mpu.acceleration[1]>9 or mpu.acceleration[0]<-9 or mpu.acceleration[1]<-9:              #If the accelerometer is tilted more than 90 degrees run function
     
         led.value=True 
 
-    else:
+    else:                                                           #If its not run this
         led.value=False    

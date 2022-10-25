@@ -6,7 +6,7 @@ import time
 import digitalio
 import board 
 import pwmio
-from adafruit_motor import servo
+from adafruit_motor import servo    
 
 
 led1=digitalio.DigitalInOut(board.GP13)
@@ -37,7 +37,7 @@ while True:
 
         print("liftoff")
         led1.value=True
-        servo1.angle = 0
+        servo1.angle = 0            #Move the servo to what it reads as zero degrees 
         time.sleep(5)
 
 
