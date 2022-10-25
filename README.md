@@ -22,7 +22,7 @@
 
 ### Description 
 
-The goal of this assignment was to use a for loop to make a rasberry pie serial moniter countdown from 10 and then say liftoff. 
+The goal of this assignment was to use a for loop to make a rasberry pi print a countdown from 10 and then say liftoff in its serial moniter. 
 
 ### Evidence 
 
