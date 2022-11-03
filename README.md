@@ -14,6 +14,7 @@
 * [Landing Area 2](#Landing_Area_2)
 * [Morse Code 1](#Morse_Code_1)
 * [Morse Code 2](#Morse_Code_2)
+* [FEA Part 1](#FEA_Part_1)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
@@ -259,7 +260,9 @@ The key to this assignment was to use the "for character in umym:" loop. This go
 
 ### Part Image
 
+![Beam](images/Beam 1.PNG)
 
+### Reflection
 
 ## Onshape_Assignment_Template
 
