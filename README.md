@@ -260,7 +260,7 @@ The key to this assignment was to use the "for character in umym:" loop. This go
 
 ### Part Image
 
-![Beam](images/Beam 1.PNG)
+![Beam](images/Beam_1.PNG)
 
 ### Reflection
 
