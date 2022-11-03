@@ -249,6 +249,18 @@ The goal of this assignment was to build on the last and make the led blink acco
 
 The key to this assignment was to use the "for character in umym:" loop. This goes through each character in a string and depending on the character it acts out different loops. You then have to add the new character to the previous line using (umym = umym + MORSE_CODE[letter] + " ")  
 
+### FEA_Part_1
+
+### Assignment Description
+
+### Part Link
+
+[Beam](https://cvilleschools.onshape.com/documents/1c372a26d05ac860d61f4583/w/8a4ee036685a2dabb1b46d17/e/294ad1c84cae18d2c06b544d?renderMode=0&uiState=6363fc9f9f09cf7adfb8821b)
+
+### Part Image
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
