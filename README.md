@@ -254,6 +254,8 @@ The key to this assignment was to use the "for character in umym:" loop. This go
 
 ### Assignment Description
 
+The goal of this assignment was to create a beam that would hold the maximum amount of weight 180mm from the attachment block. 
+
 ### Part Link
 
 [Beam](https://cvilleschools.onshape.com/documents/1c372a26d05ac860d61f4583/w/8a4ee036685a2dabb1b46d17/e/294ad1c84cae18d2c06b544d?renderMode=0&uiState=6363fc9f9f09cf7adfb8821b)
@@ -263,6 +265,8 @@ The key to this assignment was to use the "for character in umym:" loop. This go
 ![Beam](images/Beam_1.PNG)
 
 ### Reflection
+
+One tool that was very helpful for me was chamfer. The assignment required the beam and attchment block piece to be under 13 grams so extruding holes then chamfering the edges we a great way to lower the weight. 
 
 ## Onshape_Assignment_Template
 
