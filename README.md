@@ -287,7 +287,7 @@ In this assignment we used SimScale to simulate weight on our beam. This would s
 
 ### Reflection
 
-
+One point of improvement in our design is the bottom beam. It is very slim at an area with a lot of stress. I will need to thicken this and then shave off of parts of the beam with less stress. 
 
 ## Onshape_Assignment_Template
 
