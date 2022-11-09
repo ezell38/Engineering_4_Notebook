@@ -16,6 +16,7 @@
 * [Morse Code 2](#Morse_Code_2)
 * [FEA Part 1](#FEA_Part_1)
 * [FEA Part 2](#FEA_Part_2)
+* [FEA Part 3](#FEA_Part_3)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
@@ -288,6 +289,24 @@ In this assignment we used SimScale to simulate weight on our beam. This would s
 ### Reflection
 
 One point of improvement in our design is the bottom beam. It is very slim at an area with a lot of stress. I will need to thicken this and then shave off of parts of the beam with less stress. 
+
+### FEA_Part_3
+
+### Assignment Description
+
+The goal of this assingment was to use the SimScale simulation to improve your beam. 
+
+### Part Link
+
+[Beam](https://cvilleschools.onshape.com/documents/1c372a26d05ac860d61f4583/w/8a4ee036685a2dabb1b46d17/e/294ad1c84cae18d2c06b544d?renderMode=0&uiState=636bfb308e26641b9e70d8a3)
+
+### Part Image
+
+
+
+### Reflection
+
+I made the height of the beam shorter and thickened the bottom beam to increase strength and stability
 
 ## Onshape_Assignment_Template
 
