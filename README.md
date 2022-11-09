@@ -15,6 +15,7 @@
 * [Morse Code 1](#Morse_Code_1)
 * [Morse Code 2](#Morse_Code_2)
 * [FEA Part 1](#FEA_Part_1)
+* [FEA Part 2](#FEA_Part_2)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
@@ -267,6 +268,26 @@ The goal of this assignment was to create a beam that would hold the maximum amo
 ### Reflection
 
 One tool that was very helpful for me was chamfer. The assignment required the beam and attchment block piece to be under 13 grams so extruding holes then chamfering the edges we a great way to lower the weight. 
+
+### FEA_Part_2
+
+### Assignment Description
+
+In this assignment we used SimScale to simulate weight on our beam. This would show the points of stress and displacement that would act on our beam. This allows us to build on our design and improve it. 
+
+### Part Link
+
+[Beam](https://cvilleschools.onshape.com/documents/1c372a26d05ac860d61f4583/w/8a4ee036685a2dabb1b46d17/e/294ad1c84cae18d2c06b544d?renderMode=0&uiState=636bfb308e26641b9e70d8a3)
+
+### Part Image
+
+![Beam](images/Beam_2.PNG)
+
+![Beam](images/Beam_3.PNG)
+
+### Reflection
+
+
 
 ## Onshape_Assignment_Template
 
