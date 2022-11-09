@@ -281,9 +281,9 @@ In this assignment we used SimScale to simulate weight on our beam. This would s
 
 ### Part Image
 
-![Beam](images/Beam_2.PNG)
+![Beam](images/Beam_SIM_1.PNG)
 
-![Beam](images/Beam_3.PNG)
+![Beam](images/Beam_SIM_2.PNG)
 
 ### Reflection
 
