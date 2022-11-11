@@ -308,7 +308,7 @@ The goal of this assingment was to use the SimScale simulation to improve your b
 
 ### Reflection
 
-I made the height of the beam shorter and thickened the bottom beam to increase strength and stability. The test showed that it 
+I made the height of the beam shorter and thickened the bottom beam to increase strength and stability. The test showed that it was not enough as the bottom beam waved then shattered showing it was not flexibkle enough. In future designs I would reinforce the bottom beam even more and take mass away from more stable parts. 
 
 
 ## Onshape_Assignment_Template
