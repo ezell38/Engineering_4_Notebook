@@ -302,11 +302,14 @@ The goal of this assingment was to use the SimScale simulation to improve your b
 
 ### Part Image
 
+![Beam](images/Beam_3.PNG)
 
+![Beam](images/Beam_2.PNG)
 
 ### Reflection
 
-I made the height of the beam shorter and thickened the bottom beam to increase strength and stability
+I made the height of the beam shorter and thickened the bottom beam to increase strength and stability. The test showed that it 
+
 
 ## Onshape_Assignment_Template
 
