@@ -256,7 +256,7 @@ The key to this assignment was to use the "for character in umym:" loop. This go
 
 ### Assignment Description
 
-The goal of this assignment was to create a beam that would hold the maximum amount of weight 180mm from the attachment block. 
+The goal of this assignment was to create a beam that would hold the maximum amount of weight, 180mm from the attachment block. 
 
 ### Part Link
 
