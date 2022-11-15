@@ -361,7 +361,13 @@ The goal of this assignment was to assemble all the parts into a working launche
 
 ### Part Image
 
+![Ring](images/Ring_3.PNG)
 
+![Ring](images/Ring_4.PNG)
+
+### Reflection
+
+Assembling the launcher wasn't very hard if you followed the directions. One thing that was helpful was to insert all the screws in at the same time rather than one by one. This saved you lots of time and effort. 
 
 ## Onshape_Assignment_Template
 
