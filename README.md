@@ -349,6 +349,20 @@ The goal of this assignment was to create the key for the laucher.
 
 One thing that helped me with this assignment was using a linear pattern to create the grooves in the key. After setting the instances and distance between it was important to do a feature pattern rather than a part pattern. It was also important to have the edge of the key be the direction so it knew where to execute the function.
 
+### Assembling_the_Launcher 
+
+### Assignment Description 
+
+The goal of this assignment was to assemble all the parts into a working launcher. 
+
+### Part Link
+
+[Copter Link](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/eab5d53bfa6cce676db7f375/e/05c08d906845c401d1b5f3c3?renderMode=0&uiState=6373daec3687493cd86c6233)
+
+### Part Image
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
