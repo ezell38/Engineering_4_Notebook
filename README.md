@@ -325,10 +325,11 @@ The overall goal of this assignment was to create, with a partner, a launcher th
 
 ### Part Image
 
-
+![Ring](images/Ring_1.PNG)
 
 ### Reflection
 
+This assignment was fairly easy if you follow the directions. One thing that saved time was using the Use function to create the holes that the screws went through as opposed to guessing the distances. 
 
 ## Onshape_Assignment_Template
 
