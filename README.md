@@ -343,9 +343,11 @@ The goal of this assignment was to create the key for the laucher.
 
 ### Part Image 
 
-
+![Ring](images/Ring_2.PNG)
 
 ### Reflection 
+
+One thing that helped me with this assignment was using a linear pattern to create the grooves in the key. After setting the instances and distance between it was important to do a feature pattern rather than a part pattern. It was also important to have the edge of the key be the direction so it knew where to execute the function.
 
 ## Onshape_Assignment_Template
 
