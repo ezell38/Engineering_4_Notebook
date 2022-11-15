@@ -17,6 +17,9 @@
 * [FEA Part 1](#FEA_Part_1)
 * [FEA Part 2](#FEA_Part_2)
 * [FEA Part 3](#FEA_Part_3)
+* [Ring and Spinner](#Ring_and_Spinner)
+* [Key and Prop](#Key_and_Prop)
+* [Assembling the Launcher](#Assembling_the_Launcher)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
@@ -309,6 +312,22 @@ The goal of this assingment was to use the SimScale simulation to improve your b
 ### Reflection
 
 I made the height of the beam shorter and thickened the bottom beam to increase strength and stability. The test showed that it was not enough as the bottom beam waved then shattered showing it was not flexibkle enough. In future designs I would reinforce the bottom beam even more and take mass away from more stable parts. 
+
+### Ring_and_Spinner
+
+### Assignment Description 
+
+The overall goal of this assignment was to create, with a partner, a launcher that would launch a toy copter into the air. For this sub-assignment the goal was to creat the ring used to hold the mechanism. 
+
+### Part Link 
+
+[Copter Link](https://cvilleschools.onshape.com/documents/43e843f3a86e98c3fce92915/w/eab5d53bfa6cce676db7f375/e/05c08d906845c401d1b5f3c3?renderMode=0&uiState=6373daec3687493cd86c6233)
+
+### Part Image
+
+
+
+### Reflection
 
 
 ## Onshape_Assignment_Template
