@@ -178,7 +178,7 @@ The goal of this assignment was to make a OLED screen read the X,Y, and Z coordi
 
 One thing that was challenging in this assignment was learning how to make a splash function run over and over again and not just text on top of eachother. Have ( splash = displayio.Group()) before the code to print on the OLED screen in your while True: loop. I also had trouble rounding the coordinates. Just use round(variable,ndigits). For example -  list = (f"X : {round(mpu.acceleration[0],3)} rad/s") 
 
-### Landing_Area_1
+## Landing_Area_1
 
 ### Description
 
@@ -197,7 +197,7 @@ The goal for this assignment was to make a function that asked for the coordinat
 One thing I learned during this assignment was the float function. The float function converts characters into actual numbers the program can use. For example, after asking for the user to input what the value for x1 is use the float function -  x1 = float(x1) - to make it into a number the computer can use.  
 
 
-### Landing_Area_2
+## Landing_Area_2
 
 ### Description
 
@@ -219,7 +219,7 @@ The goal for this assignment was to build on the last and make it print everythi
 
 One thing I learned about during this assignment was the int function. In the context of this assignment this function takes a number and makes its a coordinate that can be printed on a OLED screen. One thing we did was add or subract to the int to make it print where we wanted on the OLED screen. For example, you had to add 64 to all x values and make the int negative and add 32 to all y values - int(xcoor1) + 64, -int(ycoor1) + 32.
 
-### Morse_Code_1
+## Morse_Code_1
 
 ### Description
 
@@ -237,7 +237,7 @@ The goal of this assignment was to convert text into morse code. The program wou
 
 One thing I struggled with was string concatenation. I couldn't figure out how to add the previous word to the new word on the same line. What You have to do is create a variable thats whatever you printed last plus whats now being input. umym = umym + MORSE_CODE[letter] + " " then print(umym). 
 
-### Morse_Code_2
+## Morse_Code_2
 
 ### Description 
 
@@ -255,7 +255,7 @@ The goal of this assignment was to build on the last and make the led blink acco
 
 The key to this assignment was to use the "for character in umym:" loop. This goes through each character in a string and depending on the character it acts out different loops. You then have to add the new character to the previous line using (umym = umym + MORSE_CODE[letter] + " ")  
 
-### FEA_Part_1
+## FEA_Part_1
 
 ### Assignment Description
 
@@ -273,7 +273,7 @@ The goal of this assignment was to create a beam that would hold the maximum amo
 
 One tool that was very helpful for me was chamfer. The assignment required the beam and attchment block piece to be under 13 grams so extruding holes then chamfering the edges we a great way to lower the weight. 
 
-### FEA_Part_2
+## FEA_Part_2
 
 ### Assignment Description
 
@@ -293,7 +293,7 @@ In this assignment we used SimScale to simulate weight on our beam. This would s
 
 One point of improvement in our design is the bottom beam. It is very slim at an area with a lot of stress. I will need to thicken this and then shave off of parts of the beam with less stress. 
 
-### FEA_Part_3
+## FEA_Part_3
 
 ### Assignment Description
 
@@ -313,7 +313,7 @@ The goal of this assingment was to use the SimScale simulation to improve your b
 
 I made the height of the beam shorter and thickened the bottom beam to increase strength and stability. The test showed that it was not enough as the bottom beam waved then shattered showing it was not flexibkle enough. In future designs I would reinforce the bottom beam even more and take mass away from more stable parts. 
 
-### Ring_and_Spinner
+## Ring_and_Spinner
 
 ### Assignment Description 
 
@@ -339,7 +339,7 @@ This assignment was fairly easy if you follow the directions. One thing that sav
 
 This part was  fairly difficult at first. I had trouble with removing some of the extruded cuts, but it wasn't too complicated. Overall, not an especially challenging process.
 
-### Key_and_Prop
+## Key_and_Prop
 
 ### Assignment Description 
 
@@ -365,7 +365,7 @@ One thing that helped me with this assignment was using a linear pattern to crea
 
 This assembly included some tricky merging and extrusions/sweeps. The helix design proved difficult to work around, and I ended up having to redo it a couple times. The helix is fairly simple, however, when you get the hang of it. Just make sure to set your helix on "Height and turns".
 
-### Assembling_the_Launcher 
+## Assembling_the_Launcher 
 
 ### Assignment Description 
 
