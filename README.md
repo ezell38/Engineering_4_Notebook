@@ -317,7 +317,7 @@ I made the height of the beam shorter and thickened the bottom beam to increase 
 
 ### Assignment Description 
 
-The overall goal of this assignment was to create, with a partner, a launcher that would launch a toy copter into the air. For this sub-assignment the goal was to creat the ring used to hold the mechanism. 
+The overall goal of this assignment was to create, with a partner, a launcher that would launch a toy copter into the air. For this sub-assignment the goal was to create the "ring" used to hold the mechanism while my partner designed the "spinner". For the spinner the bottom half has teeth that will mesh with the key, in order to spin the prop. The prop rests on the top of the spinner, and lifts off of the helix cutouts. 
 
 ### Part Link 
 
@@ -335,7 +335,7 @@ This assignment was fairly easy if you follow the directions. One thing that sav
 
 ### Assignment Description 
 
-The goal of this assignment was to create the key for the laucher. 
+The goal of this assignment was to create the key for the laucher. It is a key-like mechanisem with triangles cutout using a linear pattern to created the ridges used to spin/launch the prop. My partner designed the prop which is a circular disk that spins off of the top of the spinner when winded up by the key.
 
 ### Part Link
 
@@ -347,13 +347,19 @@ The goal of this assignment was to create the key for the laucher.
 
 ### Reflection 
 
-One thing that helped me with this assignment was using a linear pattern to create the grooves in the key. After setting the instances and distance between it was important to do a feature pattern rather than a part pattern. It was also important to have the edge of the key be the direction so it knew where to execute the function.
+#### Key - 
+
+One thing that helped me with this assignment was using a linear pattern to create the grooves in the key. After setting the instances and distance between it was important to do a feature pattern rather than a part pattern. It was also important to have the edge of the key be the direction so it knew where to execute the function. 
+
+#### Prop - 
+
+This assembly included some tricky merging and extrusions/sweeps. The helix design proved difficult to work around, and I ended up having to redo it a couple times. The helix is fairly simple, however, when you get the hang of it. Just make sure to set your helix on "Height and turns".
 
 ### Assembling_the_Launcher 
 
 ### Assignment Description 
 
-The goal of this assignment was to assemble all the parts into a working launcher. 
+The goal of this assignment was to assemble all the parts into a working launcher. The assembly uses a rack and pinion mate to make the prop spin as the key is pulled out and inserted.
 
 ### Part Link
 
