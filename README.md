@@ -331,11 +331,11 @@ The overall goal of this assignment was to create, with a partner, a launcher th
 
 ### Reflection
 
-#### - Ring
+#### Ring - 
 
 This assignment was fairly easy if you follow the directions. One thing that saved time was using the Use function to create the holes that the screws went through as opposed to guessing the distances. 
 
-#### - Spinner
+#### Spinner - 
 
 This part was  fairly difficult at first. I had trouble with removing some of the extruded cuts, but it wasn't too complicated. Overall, not an especially challenging process.
 
