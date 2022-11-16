@@ -331,7 +331,13 @@ The overall goal of this assignment was to create, with a partner, a launcher th
 
 ### Reflection
 
+#### - Ring
+
 This assignment was fairly easy if you follow the directions. One thing that saved time was using the Use function to create the holes that the screws went through as opposed to guessing the distances. 
+
+#### - Spinner
+
+This part was  fairly difficult at first. I had trouble with removing some of the extruded cuts, but it wasn't too complicated. Overall, not an especially challenging process.
 
 ### Key_and_Prop
 
@@ -377,7 +383,7 @@ The goal of this assignment was to assemble all the parts into a working launche
 
 ### Reflection
 
-Assembling the launcher wasn't very hard if you followed the directions. One thing that was helpful was to insert all the screws in at the same time rather than one by one. This saved you lots of time and effort. 
+This was the easiest step. We worked together on the assembly, alternating each step, and then animated the motion of the rack and pinion. It was important to put on offset on the rotating mate, in order to line up the key with the spinner.
 
 ## Onshape_Assignment_Template
 
