@@ -271,7 +271,7 @@ The goal of this assignment was to create a beam that would hold the maximum amo
 
 ### Reflection
 
-One tool that was very helpful for me was chamfer. The assignment required the beam and attchment block piece to be under 13 grams so extruding holes in the beam and then chamfering the edges was a great way to lower the weight. 
+Maintaining the correct weight was one of the biggest challenges throughout this entire assignment. One tool that was very helpful for me was chamfer. The assignment required the beam and attachment block piece to be under 13 grams so extruding holes in the beam and then chamfering the edges was a great way to lower the weight. 
 
 ## FEA_Part_2
 
@@ -291,7 +291,7 @@ In this assignment we used SimScale to simulate weight on our beam. This would s
 
 ### Reflection
 
-One point of improvement in our design is the bottom beam. It is very slim at an area with a lot of stress so I will need to thicken this section and then shave off of parts of the beam with less stress to maintian the weight limit.
+One point of improvement in our design is the bottom beam. It is very slim at an area with a lot of stress so I will need to thicken this section and then shave off of parts of the beam with less stress to maintian the weight limit. A lot of this assignnment is figuring out where to take material and where to give material in order to make the strongest possible beam.
 
 ## FEA_Part_3
 
@@ -333,7 +333,7 @@ The overall goal of this assignment was to create, with a partner, a launcher th
 
 #### Ring - 
 
-This assignment was fairly easy if you follow the directions. One thing that saved time was using the Use function to create the holes that the screws went through as opposed to guessing the distances. 
+This assignment was fairly easy if you follow the directions. One thing that saved time was using the Use function to create the holes that the screws went through as opposed to guessing the distances. In the future I will definently make use of the Use function for most CAD projects because it allows you to make exact measurements and fits rather then measuring everything out separetly and hoping you got the distances right. 
 
 #### Spinner - 
 
