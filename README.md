@@ -342,7 +342,7 @@ This part was  fairly difficult at first. I had trouble with removing some of th
 
 ### Assignment Description 
 
-The goal of this assignment was to create the key for the laucher. It is a key-like mechanisem with triangles cutout using a linear pattern to created the ridges used to spin/launch the prop. My partner designed the prop which is a circular disk that spins off of the top of the spinner when winded up by the key.
+The goal of this assignment was to create the key for the laucher. It is a key-like mechanisem with triangles cutout using a linear pattern to created the ridges used to spin/launch the prop. My partner designed the prop which is a circular disk that spins off of the top of the spinner when wound up by the key.
 
 ### Part Link
 
@@ -382,5 +382,5 @@ The goal of this assignment was to assemble all the parts into a working launche
 
 ### Reflection
 
-This was the easiest step. We worked together on the assembly, alternating each step, and then animated the motion of the rack and pinion. It was important to put on offset on the rotating mate, in order to line up the key with the spinner.
+This was the easiest step. We worked together on the assembly, alternating each step, and then animated the motion of the rack and pinion. It was important to put an offset on the rotating mate, in order to line up the key with the spinner.
 
