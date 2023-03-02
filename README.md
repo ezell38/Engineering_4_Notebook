@@ -20,7 +20,6 @@
 * [Ring and Spinner](#Ring_and_Spinner)
 * [Key and Prop](#Key_and_Prop)
 * [Assembling the Launcher](#Assembling_the_Launcher)
-* [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
 
