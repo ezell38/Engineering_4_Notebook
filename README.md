@@ -271,7 +271,7 @@ The goal of this assignment was to create a beam that would hold the maximum amo
 
 ### Reflection
 
-One tool that was very helpful for me was chamfer. The assignment required the beam and attchment block piece to be under 13 grams so extruding holes then chamfering the edges we a great way to lower the weight. 
+One tool that was very helpful for me was chamfer. The assignment required the beam and attchment block piece to be under 13 grams so extruding holes in the beam and then chamfering the edges was a great way to lower the weight. 
 
 ## FEA_Part_2
 
@@ -291,7 +291,7 @@ In this assignment we used SimScale to simulate weight on our beam. This would s
 
 ### Reflection
 
-One point of improvement in our design is the bottom beam. It is very slim at an area with a lot of stress. I will need to thicken this and then shave off of parts of the beam with less stress. 
+One point of improvement in our design is the bottom beam. It is very slim at an area with a lot of stress so I will need to thicken this section and then shave off of parts of the beam with less stress to maintian the weight limit.
 
 ## FEA_Part_3
 
